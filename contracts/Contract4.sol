@@ -8,6 +8,7 @@ contract Game4 {
 
   function write(address x) external {
     nested[x][msg.sender] = true;
+    
   }
 
   function win(address y) external {
